@@ -10,6 +10,7 @@ function App() {
       <Navbar />
 			<Banner />
 			<RowPoster title='Netflix Orginals' url={originals}/>
+      
 			<RowPoster title='Trending' url={trending} isSmall/>
 			<RowPoster title='Action' url={action} isSmall/>
 			<RowPoster title='Anime' url={anime} isSmall/>
